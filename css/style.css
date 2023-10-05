@@ -1541,7 +1541,7 @@ body {
 
 .slider .parallax-slider .caption p {
   color: #eee;
-  width: 600px;
+  width: 1000px;
   margin: 30px auto 40px;
   opacity: 0;
   -webkit-transform: translateY(20px);
@@ -3169,6 +3169,16 @@ footer {
   text-decoration: none;
 }
 
+.service-tabs .nav-tabs li .active .tab-sub-box{
+  background-color: #517D1B;
+  transition: all .5s;
+}
+
+.service-tabs .nav-tabs li .active .tab-sub-box h6, .service-tabs .nav-tabs li .active .tab-sub-box i{
+  color: white !important;
+  transition: all .5s;
+}
+
 .service-tabs h4 {
   color: #363636;
   font-size: 25px;
@@ -3501,7 +3511,9 @@ footer {
   font-size: 22px;
   margin-bottom: 10px;
 }
-
+.mt-20{
+  margin-top: 50px;
+}
 
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 2560px) {
@@ -4147,7 +4159,7 @@ footer {
 
   .product-detail-page .product-detail h2 {
     font-size: 22px;
-    margin-top: 15px;
+    margin-top: 20px;
   }
 
   .product-detail p {
