@@ -94,7 +94,9 @@ a:hover,
 span:hover {
   text-decoration: none;
 }
-
+a{
+  text-decoration: none;
+}
 ::-webkit-scrollbar-track {
   border-radius: 10px;
   background-color: #F5F5F5;
@@ -3514,7 +3516,65 @@ footer {
 .mt-20{
   margin-top: 50px;
 }
+.product-links a{
+  text-decoration: none !important;
+  font-size: 15px;
+  font-weight: 600;
+}
+.link-box {
+  border: 1px solid #ebebeb;
+  padding: 8px 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all .5s;
+}
+.mr-10{
+  margin-left: 20px;
+}
+.link-box i{
+  font-size: 13px;
+  margin-right: 10px;
+}
+.link-box:hover {
+  background-color: #517D1B;
+  transition: all .5s;
+  transform: translateY(-3px);
+}
 
+.link-box:hover a {
+  color: #fff !important;
+}
+
+.link-box:hover i {
+  color: #fff !important;
+}
+.rental-dtl-head{
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.boiler-img{
+  border-radius: 10px;
+}
+.boiler-service li{
+  margin: 15px 0px;
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  color: #494949;
+}
+.boiler-service li::before{
+  content: "\f058";
+  position: absolute;
+  top: 0px;
+  left: -25px;
+  font-family: "Font Awesome 5 free";
+  font-weight: 900;
+  color:#517D1B;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+  display: none;
+}
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 2560px) {
   .about .content {
@@ -4241,6 +4301,10 @@ footer {
 
   .custm-soltn h4 {
     font-size: 20px;
+  }
+  .rental-dtl-head{
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 }
 
