@@ -2660,11 +2660,11 @@ header.simpl .caption .btn-curve {
 /* ====================== service ====================== */
 
 .service-box {
-  background-image: url(img/service/1.jpg);
   height: 380px;
   display: flex;
   align-items: center;
   margin-top: 20px;
+  background-size: cover;
 }
 
 .service-box .service-content {
@@ -3101,6 +3101,8 @@ footer {
 
 .servce-imgs img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .3s ease-in-out;
@@ -3445,6 +3447,8 @@ footer {
   border-radius: 5px;
   transform: scale(1);
   transition: 1s;
+  height: 400px;
+  object-fit: cover;
 }
 
 .sc-details {
@@ -3554,13 +3558,17 @@ footer {
   margin-top: 20px;
 }
 .boiler-img{
-  border-radius: 10px;
+  border-radius: 5px;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 30px;
 }
 .boiler-service li{
-  margin: 15px 0px;
+  margin: 35px 0px;
   position: relative;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   color: #494949;
 }
 .boiler-service li::before{
@@ -3569,8 +3577,12 @@ footer {
   top: 0px;
   left: -25px;
   font-family: "Font Awesome 5 free";
-  font-weight: 900;
-  color:#517D1B;
+  font-weight: 600;
+  color: #517D1B;
+  font-size: 17px;
+}
+.list-margin li{
+  margin: 20px 0px !important;
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
   display: none;
@@ -3646,6 +3658,9 @@ footer {
 
   .business-area {
     padding: 40px 15px;
+  }
+  .section-padding{
+    padding: 70px 0px;
   }
 
 }
@@ -4059,7 +4074,7 @@ footer {
 
 @media screen and (max-width: 767px) {
   .section-padding {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .about-img {
@@ -4305,6 +4320,9 @@ footer {
   .rental-dtl-head{
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+  .boiler-img{
+    margin-top: 15px;
   }
 }
 
